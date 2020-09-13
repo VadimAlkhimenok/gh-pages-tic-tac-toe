@@ -1,0 +1,39 @@
+.MainPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 400px;
+    border: 1px solid rgb(5, 51, 115);
+    border-radius: 4px;
+    background-color: rgb(163, 195, 209);
+    box-shadow: 0 0 10px rgba(15, 3, 66, 0.5);
+    margin-top: 170px;
+}
+
+.SubTitle {
+    font-size: 15px;
+    margin-bottom: 70px;
+    color: rgb(155, 30, 8);
+
+}
+
+/* button start */
+.Start {
+    width: 100px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline-style: none;
+    background-color: rgb(7, 101, 13);
+    color: #fff;
+    text-transform: uppercase;
+    transition: .3s;
+}
+
+.Start:hover {
+    background-color: rgb(41, 125, 47);
+    cursor: pointer;
+    transition: .3s;
+}

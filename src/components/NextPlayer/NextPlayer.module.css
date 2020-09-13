@@ -1,0 +1,10 @@
+.NextPlayer {
+    border: 1px solid tomato    ;
+    margin-top: 20px;
+    padding: 10px;
+    min-width: 150px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: tomato;
+    font-size: 20px;
+}
