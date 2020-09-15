@@ -59,9 +59,9 @@ export default class App extends Component {
     let { counter, data, combinationOfWin, isGameOver } = this.state;
     let x, o;
 
-    if (isGameOver) return; // game over
-
     this.notWins();
+
+    if (isGameOver) return; // game over
 
     if (counter % 2 === 0) {
       if (data[idx] === 'X' || data[idx] === 'O') return; // click on the same cell
